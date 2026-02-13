@@ -33,4 +33,5 @@ const fs = require('fs');
 //const result =fs.readFileSync("hello.txt", "utf-8");
 //console.log(result);
 // fs.cpSync("hello.txt", "hi.txt");
-fs.copyFile("hello.txt", "hi.txt", ()=>{});
+// fs.copyFile("hello.txt", "hi.txt", ()=>{});
+// fs.unlink("hi.txt", ()=> {});
